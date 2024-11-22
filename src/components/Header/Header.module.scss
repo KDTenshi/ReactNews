@@ -1,0 +1,32 @@
+@use "../../styles/colors" as c;
+@import "../../styles/mixins";
+
+.Header {
+  width: 100%;
+  padding: 15px 75px;
+  background: c.$off-white;
+  border-bottom: 1px solid c.$gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Title {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.DateTime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Time {
+  font-size: 25px;
+}
+
+.Date {
+  font-size: 15px;
+}

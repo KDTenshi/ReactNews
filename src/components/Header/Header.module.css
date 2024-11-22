@@ -1,0 +1,29 @@
+.Header {
+  width: 100%;
+  padding: 15px 75px;
+  background: #f2f0ef;
+  border-bottom: 1px solid #a6a4a4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Title {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.DateTime {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Time {
+  font-size: 25px;
+}
+
+.Date {
+  font-size: 15px;
+}/*# sourceMappingURL=Header.module.css.map */
